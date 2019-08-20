@@ -1,0 +1,11 @@
+c:\users\olexa\source\repos\Area_of_rectangle\Area_of_rectangle\obj\Debug\netcoreapp2.0\Area_of_rectangle.csprojResolveAssemblyReference.cache
+c:\users\olexa\source\repos\Area_of_rectangle\Area_of_rectangle\obj\Debug\netcoreapp2.0\Area_of_rectangle.csproj.CoreCompileInputs.cache
+c:\users\olexa\source\repos\Area_of_rectangle\Area_of_rectangle\obj\Debug\netcoreapp2.0\Area_of_rectangle.AssemblyInfoInputs.cache
+c:\users\olexa\source\repos\Area_of_rectangle\Area_of_rectangle\obj\Debug\netcoreapp2.0\Area_of_rectangle.AssemblyInfo.cs
+c:\users\olexa\source\repos\Area_of_rectangle\Area_of_rectangle\bin\Debug\netcoreapp2.0\Area_of_rectangle.deps.json
+c:\users\olexa\source\repos\Area_of_rectangle\Area_of_rectangle\bin\Debug\netcoreapp2.0\Area_of_rectangle.runtimeconfig.json
+c:\users\olexa\source\repos\Area_of_rectangle\Area_of_rectangle\bin\Debug\netcoreapp2.0\Area_of_rectangle.runtimeconfig.dev.json
+c:\users\olexa\source\repos\Area_of_rectangle\Area_of_rectangle\bin\Debug\netcoreapp2.0\Area_of_rectangle.dll
+c:\users\olexa\source\repos\Area_of_rectangle\Area_of_rectangle\bin\Debug\netcoreapp2.0\Area_of_rectangle.pdb
+c:\users\olexa\source\repos\Area_of_rectangle\Area_of_rectangle\obj\Debug\netcoreapp2.0\Area_of_rectangle.dll
+c:\users\olexa\source\repos\Area_of_rectangle\Area_of_rectangle\obj\Debug\netcoreapp2.0\Area_of_rectangle.pdb
