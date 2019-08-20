@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27130.2026
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "epam_training_01", "epam_training\epam_training_01.csproj", "{BB86CEFE-005B-4339-8E27-41D75648A33E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "epam_training_02", "epam_training_02\epam_training_02.csproj", "{652E25BD-4631-4BBD-96E8-BBD6E297E916}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,15 +11,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{BB86CEFE-005B-4339-8E27-41D75648A33E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{BB86CEFE-005B-4339-8E27-41D75648A33E}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{BB86CEFE-005B-4339-8E27-41D75648A33E}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{BB86CEFE-005B-4339-8E27-41D75648A33E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{652E25BD-4631-4BBD-96E8-BBD6E297E916}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{652E25BD-4631-4BBD-96E8-BBD6E297E916}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{652E25BD-4631-4BBD-96E8-BBD6E297E916}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{652E25BD-4631-4BBD-96E8-BBD6E297E916}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {5D9EAAC8-EDFD-4840-A8FE-3432F465BA41}
+		SolutionGuid = {7B8C6A8B-0A17-4F43-8C13-C3B7A6454902}
 	EndGlobalSection
 EndGlobal
