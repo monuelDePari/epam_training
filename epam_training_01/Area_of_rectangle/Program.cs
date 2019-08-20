@@ -10,7 +10,7 @@ namespace Area_of_rectangle
         {
             try
             {
-                Console.WriteLine("Type A and B coordinate postions in format number x1/ y1/ x2/ y2");
+                Console.WriteLine("Type A and B coordinate postions in format number number1/ number2/ number1/ number2");
                 string n = Console.ReadLine();
                 string[] A = new string[4];
                 A = n.Split("/ ");
