@@ -20,9 +20,9 @@ namespace epam_training_03
                 {
                     Console.WriteLine(Before[i]);
                 }
-            }catch(Exception e)
+            }catch(Exception)
             {
-                System.Environment.Exit(1);
+                Environment.Exit(1);
             }
         }
         private static void RemoveFrom(ref List<string> Before)
@@ -154,11 +154,19 @@ namespace epam_training_03
             {
                 Console.WriteLine(item);
             }
-            Console.WriteLine("Type page number");
-            int n = Convert.ToInt32(Console.ReadLine());
+            
+            int n;
             while (true)
             {
-                DisplayPage(ref Before, n);
+                try
+                {
+                    Console.WriteLine("Type page number");
+                    n = Convert.ToInt32(Console.ReadLine());
+                    DisplayPage(ref Before, n);
+                }catch(Exception)
+                {
+                    Environment.Exit(1);
+                }
             }
         }
     }
