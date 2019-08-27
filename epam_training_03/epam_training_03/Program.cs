@@ -1,6 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
 namespace epam_training_03
 {
     class Program
@@ -74,46 +73,57 @@ namespace epam_training_03
         }
         private static void AddToPerson(ref List<Person> list)
         {
-            list.Add(new Person());
-            list.Last().Name = "Roman";
-            list.Last().Age = 19;
-            list.Last().PhoneNumbers = new List<string> { "+380677087158", "+380541211158", "+328067125612" };
-            list.Add(new Person());
-            list.Last().Name = "Ivan";
-            list.Last().Age = 31;
-            list.Last().PhoneNumbers = new List<string> { "+380642340433", "+380876545678", "+382067455622" };
-            list.Add(new Person());
-            list.Last().Name = "Petro";
-            list.Last().Age = 24;
-            list.Last().PhoneNumbers = new List<string> { "+380123834568", "+380256462158", "+380664565663" };
-            list.Add(new Person());
-            list.Last().Name = "Dabyd";
-            list.Last().Age = 43;
-            list.Last().PhoneNumbers = new List<string> { "+380534543158", "+380754567655", "+380757474848" };
-            list.Add(new Person());
-            list.Last().Name = "Vasyl";
-            list.Last().Age = 67;
-            list.Last().PhoneNumbers = new List<string> { "+380676543345", "+380345124533", "+382343252316" };
-            list.Add(new Person());
-            list.Last().Name = "Dabyd";
-            list.Last().Age = 33;
-            list.Last().PhoneNumbers = new List<string> { "+380936461233", "+380934252344", "+380673634634" };
-            list.Add(new Person());
-            list.Last().Name = "Roman";
-            list.Last().Age = 18;
-            list.Last().PhoneNumbers = new List<string> { "+380675345352", "+380542353252", "+380671345546" };
-            list.Add(new Person());
-            list.Last().Name = "Petro";
-            list.Last().Age = 22;
-            list.Last().PhoneNumbers = new List<string> { "+380672352551", "+380935141256", "+380671564457" };
-            list.Add(new Person());
-            list.Last().Name = "Nazar";
-            list.Last().Age = 28;
-            list.Last().PhoneNumbers = new List<string> { "+380677533235", "+380543243241", "+380532563415" };
-            list.Add(new Person());
-            list.Last().Name = "Andriy";
-            list.Last().Age = 50;
-            list.Last().PhoneNumbers = new List<string> { "+380672343265", "+380544565169", "+380674676882" };
+            Person person = new Person();
+            person.Name = "Roman";
+            person.Age = 19;
+            person.PhoneNumbers = new List<string> { "+380677087158", "+380541211158", "+328067125612" };
+            list.Add(person);
+            Person person1 = new Person();
+            person1.Name = "Ivan";
+            person1.Age = 31;
+            person1.PhoneNumbers = new List<string> { "+380642340433", "+380876545678", "+382067455622" };
+            list.Add(person1);
+            Person person2 = new Person();
+            person2.Name = "Petro";
+            person2.Age = 24;
+            person2.PhoneNumbers = new List<string> { "+380123834568", "+380256462158", "+380664565663" };
+            list.Add(person2);
+            Person person3 = new Person();
+            person3.Name = "Dabyd";
+            person3.Age = 43;
+            person3.PhoneNumbers = new List<string> { "+380534543158", "+380754567655", "+380757474848" };
+            list.Add(person3);
+            Person person4 = new Person();
+            person4.Name = "Vasyl";
+            person4.Age = 67;
+            person4.PhoneNumbers = new List<string> { "+380676543345", "+380345124533", "+382343252316" };
+            list.Add(person4);
+            Person person5 = new Person();
+            person5.Name = "Dabyd";
+            person5.Age = 33;
+            person5.PhoneNumbers = new List<string> { "+380936461233", "+380934252344", "+380673634634" };
+            list.Add(person5);
+            Person person6 = new Person();
+            person6.Name = "Roman";
+            person6.Age = 18;
+            person6.PhoneNumbers = new List<string> { "+380675345352", "+380542353252", "+380671345546" };
+            list.Add(person6);
+            Person person7 = new Person();
+            person7.Name = "Petro";
+            person7.Age = 22;
+            person7.PhoneNumbers = new List<string> { "+380672352551", "+380935141256", "+380671564457" };
+            list.Add(person7);
+            Person person8 = new Person();
+            person8.Name = "Nazar";
+            person8.Age = 28;
+            person8.PhoneNumbers = new List<string> { "+380677533235", "+380543243241", "+380532563415" };
+            list.Add(person8);
+            Person person9 = new Person();
+            person9.Name = "Andriy";
+            person9.Age = 50;
+            person9.PhoneNumbers = new List<string> { "+380672343265", "+380544565169", "+380674676882" };
+            list.Add(person9);
+
         }
         static void Main(string[] args)
         {
@@ -124,14 +134,18 @@ namespace epam_training_03
                 Console.WriteLine("Name: " + item.Name + " Age: " + item.Age);
             }
             List<Person> list2 = new List<Person>(2);
-            list2.Add(new Person());
-            list2.Last().Name = "Yaroslav";
-            list2.Last().Age = 21;
-            list2.Last().PhoneNumbers = new List<string> { "+380675822111", "+380542342341", "+380282344231" };
-            list2.Add(new Person());
-            list2.Last().Name = "Petro";
-            list2.Last().Age = 37;
-            list2.Last().PhoneNumbers = new List<string> { "+380634534521", "+380543454351", "+380275672234" };
+            Person person = new Person();
+
+            person.Name = "Yaroslav";
+            person.Age = 21;
+            person.PhoneNumbers = new List<string> { "+380675822111", "+380542342341", "+380282344231" };
+            list2.Add(person);
+            Person person2 = new Person();
+            person2.Name = "Petro";
+            person2.Age = 37;
+            person2.PhoneNumbers = new List<string> { "+380634534521", "+380543454351", "+380275672234" };
+            list2.Add(person2);
+
             list.AddRange(list2);
             foreach (var item in list)
             {
